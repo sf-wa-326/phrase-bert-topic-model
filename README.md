@@ -102,6 +102,8 @@ Change `config/model_path.py` with the model path according to your directories 
 If you would like to go beyond using the pre-trained Phrase-BERT model, you may train your own Phrase-BERT using data from the domain you are interested in. Please refer to 
 `phrase-bert/phrase_bert_finetune.py`
 
+The datasets we used to fine-tune Phrase-BERT are here: [training data csv file](https://storage.googleapis.com/phrase-bert/phrase-bert-ft-data/pooled_context_para_triples_p%3D0.8_train.csv) and [validation data csv file](https://storage.googleapis.com/phrase-bert/phrase-bert-ft-data/pooled_context_para_triples_p%3D0.8_valid.csv).
+
 To re-produce the trained Phrase-BERT, please run:
 
     export INPUT_DATA_PATH=<directory-of-phrasebert-finetuning-data>
