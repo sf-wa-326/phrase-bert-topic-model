@@ -6,7 +6,8 @@ This is the official repository for the EMNLP 2021 long paper [Phrase-BERT: Impr
 ## Setup
 This repository depends on sentence-BERT version 0.3.3, which you can install from the source using:
 ````
->>> git clone https://github.com/UKPLab/sentence-transformers/tree/v0.3.3
+>>> git clone https://github.com/UKPLab/sentence-transformers.git --branch v0.3.3
+>>> cd sentence-transformers/
 >>> pip install -e .
 
 ````
