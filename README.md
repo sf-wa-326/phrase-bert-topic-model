@@ -2,6 +2,8 @@
 
 This is the official repository for the EMNLP 2021 long paper [Phrase-BERT: Improved Phrase Embeddings from BERT with an Application to Corpus Exploration](https://arxiv.org/abs/2109.06304). We provide code for training and evaluating Phrase-BERT in addition to the datasets used in the paper.
 
+Update: the model is also available now on [Huggingface](https://huggingface.co/whaleloops/phrase-bert) thanks to the help from [whaleloops](https://github.com/whaleloops) and [nreimers](https://github.com/nreimers)!
+
 
 ## Setup
 This repository depends on sentence-BERT version 0.3.3, which you can install from the source using:
