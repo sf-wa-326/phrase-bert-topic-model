@@ -14,6 +14,11 @@ This repository depends on sentence-BERT version 0.3.3, which you can install fr
 
 ````
 
+Also you can install sentence-BERT with `pip`:
+````
+>>> pip install sentence-transformers==0.3.3
+````
+
 ## Quick Start
 The following example shows how to use a trained Phrase-BERT model to embed phrases into dense vectors.
 
